@@ -1,0 +1,30 @@
+
+h3 {
+    color: purple;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.reverse
+{ 
+    flex-wrap: wrap-reverse; 
+}
+
+@media( min-width:768px ){
+    .box
+    {
+        flex-wrap: nowrap;
+    }
+}
